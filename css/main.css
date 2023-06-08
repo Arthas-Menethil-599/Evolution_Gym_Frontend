@@ -1,0 +1,234 @@
+body{
+    font-family: 'Gilroy', sans-serif;  
+    background-color: #151515;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    color: white;
+    font-size: 48px;
+    font-weight: 800;
+}
+h3 {
+    font-size: 32px;
+    font-weight: 700;
+}
+h4 {
+    font-size: 20px;
+    font-weight: 600;
+}
+p {
+    font-size: 16px;
+}
+
+.header{
+    font-family: 'Inter', sans-serif;
+    background-color: #151515;
+}
+.nav{
+    padding: 40px 0 ;
+}
+.logo{
+    
+    width: 262px;
+    height: 28px;
+    background: transparent;
+    border: none;
+}
+.footer_logo{
+    
+    width: 262px;
+    height: 28px;
+    background: transparent;
+    border: none;
+}
+.menu ul{
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+;
+}
+.nav_link{
+    text-decoration: none;
+    color: white;
+}
+.nav_link + .nav_link{
+    margin-left: 20px;
+}
+
+.nav__button{
+    margin: 0;
+    padding: 8px 26px;
+    border-radius: 18px;
+    transition: all 0.5s ease;
+    font-weight: 500;
+}
+
+.nav__button--white {
+    background-color: #F5F8FF;
+    border: 1px solid #DEE8FF;
+    color: #0057FF;
+}
+
+.nav__button--blue {
+    background-color: #0057FF;
+    color: #F5F8FF;
+    border: none;
+}
+
+.nav__button--blue a{
+    color: #F5F8FF;
+}
+main{
+    
+    font-family: 'Gilroy', sans-serif;
+}
+.main__banner {
+    background: url('../img/main_img.jpg');
+    height: 740px;
+    color: white;
+}
+.main__banner-title{
+    font-weight: 800;
+    margin-top: 150px;
+    font-size: 64px;
+}
+
+.main__banner-text {
+    
+    margin-top: 20px;
+    margin-bottom: 320px;
+
+}
+.main__about-title {
+    margin-top: 70px;
+}
+.main__about-text {
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+.main__about {
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.main__about-rectangle, .main__membership-box {
+ display: flex;
+ justify-content:center;
+ gap: 120px;
+ 
+}
+.main__about-rectangle-one, .main__about-rectangle-two,
+.main__about-rectangle-three{
+    width: 180px;
+    height: 300px;
+    border: 1px solid #45E57D;
+}
+.main__membership{
+   font-family: 'Inter', sans-serif;
+   margin-top: 120px;
+   text-align: center;
+}
+.main__membership-box-one, .main__membership-box-two,
+.main__membership-box-three {
+    width: 280px;
+    height: 280px;
+}
+.main__membership-box-one-title {
+    background: linear-gradient(90deg, #B5947D 0%, #B6937D 6.65%, #FFECE0 8.25%, #F0CAB2 30.69%, #A47C6C 34.31%, #7F5B4A 65.92%, #AC836D 74.36%, #AB836E 91.3%, #8E6958 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    margin-top: 32px;
+}
+.main__membership-box-two-title {
+    background: conic-gradient(from 180deg at 48.5% 50%, #B8C9D3 -28.12deg, #FBFBFD 26.25deg, #C8D4DA 88.12deg, #FFFFFF 156.58deg, #AEC0CE 191.74deg, #E3E9EE 237.13deg, #FAFBFC 255.19deg, #D6DFE6 310.11deg, #B8C9D3 331.88deg, #FBFBFD 386.25deg);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+margin-top: 32px;
+}
+
+.main__membership-box-three-title {
+    background: linear-gradient(99.62deg, #FFD700 -10.24%, #F0C800 26.35%, #E1B900 66.49%, rgba(255, 230, 15, 0) 129.44%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
+margin-top: 32px;
+}
+.main__membership-box-three-price, .main__membership-box-two-price,
+.main__membership-box-one-price {
+    color: white;
+    margin-top: 10px;
+}
+.main__membership-box-three-text, .main__membership-box-two-text,
+.main__membership-box-one-text {
+    margin-top: 20px;
+    color: white;
+}
+
+.main__membership-button {
+    padding: 8px 26px;
+    background-color: #45E57D;
+    color: #151515;
+    border-radius: 18px;
+}
+
+.membership-button-one {
+    margin-top: 52px;
+    margin-bottom: 7px;
+}
+.membership-button-two {
+    margin-top: 34px;
+    margin-bottom: 7px;
+}
+.membership-button-three {
+    margin-top: 16px;
+    margin-bottom: 7px;
+}
+.main__membership-line-one, .main__membership-line-two {
+    border-left: 1px solid #45E57D;
+    height: 280px;
+    margin-top: 30px;
+}
+.form-label, .form-text {
+    color: white;
+}
+.form-control {
+    height: 46px;
+    width: 40%;
+    padding: 10px 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.activity-date {
+    font-size: 1.2em;
+}
+  
+.activity-hours {
+    font-size: 1em;
+}
+
+.center-text{
+    text-align: center;
+}
+
+.black-bg{
+    background-color: black;
+}
+
+.white-text{
+    color: white;
+}
+
+
+    

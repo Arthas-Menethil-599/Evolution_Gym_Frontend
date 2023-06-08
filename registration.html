@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evolution gym</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+</head>
+<body>
+    <header class="header">
+        <div class="nav">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-3 mr-auto d-flex align-items-center">
+                <img href="index.html" src="img/logo.svg" alt="logo" class="logo" />
+              </div>
+              <div
+                class="offset-1 col-md-4 d-flex align-items-center justify-content-center"
+              >
+                <div class="menu">
+                  <ul>
+                    <a href="index.html" class="nav_link">Home</a>
+                    <a href="index.html" class="nav_link">Membership</a>
+                    <a href="#" class="nav_link">Workout</a>
+                    <a href="#" class="nav_link">Schedule</a>
+                  </ul>
+                </div>
+              </div>
+              <div class="offset-1 col-md-3">
+                <a href="login.html"> Log in</a>
+              </button>
+              <button class="nav__button nav__button--blue">
+                <a href="registration.html"> Sign up</a>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main class="main_signup_form">
+        <div id="signupForm">
+          <form class="row g-3 needs-validation" novalidate>
+            <div class="col-md-4 position-relative">
+              <label for="firstNameInput" class="form-label">First name</label>
+              <input type="text" class="form-control" id="firstNameInput" required>
+              <div class="valid-tooltip">
+                Looks good!
+              </div>
+            </div>
+            <div class="col-md-4 position-relative">
+              <label for="lastNameInput" class="form-label">Last name</label>
+              <input type="text" class="form-control" id="lastNameInput" required>
+              <div class="valid-tooltip">
+                Looks good!
+              </div>
+            </div>
+            <div class="mb-3 col-md-12">
+              <label for="emailInput" class="form-label">Email address</label>
+              <input
+                type="email"
+                class="form-control"
+                id="emailInput"
+                placeholder="name@example.com"
+                required
+              />
+      
+              <label for="passwordInput" class="form-label">Password</label>
+              <input
+                type="password"
+                id="passwordInput"
+                class="form-control"
+                aria-labelledby="passwordHelpBlock"
+                required
+              />
+      
+              <label for="confirmPasswordInput" class="form-label">Confirm Password</label>
+              <input
+                type="password"
+                id="confirmPasswordInput"
+                class="form-control"
+                required
+              />
+              <div id="passwordHelpBlock" class="form-text">
+                Your password must be at least 8 characters long and include uppercase, lowercase, and a symbol.
+              </div>
+            </div>
+            <div class="col-12">
+              <button class="btn btn-primary" type="submit">Submit form</button>
+            </div>
+          </form>
+        </div>
+      </main>
+      
+      <script src="script.js"></script>
+</body>
+</html>
