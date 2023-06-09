@@ -204,7 +204,6 @@ margin-top: 32px;
 }
 .form-control {
     height: 46px;
-    width: 40%;
     padding: 10px 16px;
     display: flex;
     justify-content: center;
@@ -230,5 +229,58 @@ margin-top: 32px;
     color: white;
 }
 
-
+.main_login_form, .main_signup_form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
     
+.login_form, .signup_form{
+    width: 30%;
+}
+
+.signup_form{
+    display: flex;
+    
+}
+.name_surname_container{
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.text-bg-light, .card-header
+{
+    background: #ffffff;
+}
+
+.card-body{
+background:#ffffff ;
+}
+.time_row{
+    background: #0057FF;
+}
+
+table th,tr,td{
+    padding:15px; 
+}
+
+.signout_but{
+    display: flex;
+    justify-content:flex-end ;
+}
+
+.schedule_main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.schedule_main{
+    font-family: 'Inter', sans-serif;
+    margin-top: 120px;
+    text-align: center;
+    
+}
