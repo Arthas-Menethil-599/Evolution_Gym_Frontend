@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/main.css" />
 </head>
 <body>
+    
     <header class="header">
         <div class="nav">
           <div class="container">
@@ -23,13 +24,12 @@
                 <div class="menu">
                   <ul>
                     <a href="index.html" class="nav_link">Home</a>
-                    <a href="index.html" class="nav_link">Membership</a>
-                    <a href="#" class="nav_link">Workout</a>
-                    <a href="#" class="nav_link">Schedule</a>
+                    
                   </ul>
                 </div>
               </div>
               <div class="offset-1 col-md-3">
+                <button class="nav__button nav__button--white">
                 <a href="login.html"> Log in</a>
               </button>
               <button class="nav__button nav__button--blue">
@@ -40,23 +40,26 @@
           </div>
         </div>
       </header>
-      <main class="main_signup_form">
-        <div id="signupForm">
-          <form class="row g-3 needs-validation" novalidate>
-            <div class="col-md-4 position-relative">
-              <label for="firstNameInput" class="form-label">First name</label>
-              <input type="text" class="form-control" id="firstNameInput" required>
-              <div class="valid-tooltip">
-                Looks good!
+      <div class="main_signup_form">
+        <div id="signupForm" class="signup_form">
+          <form class="row g-3 needs-validation name_surname_container" novalidate>
+            
+              <div class="col-md-4 position-relative">
+                <label for="firstNameInput" class="form-label">First name</label>
+                <input type="text" class="form-control" id="firstNameInput" required>
+                <div class="valid-tooltip">
+                  Looks good!
+                </div>
               </div>
-            </div>
-            <div class="col-md-4 position-relative">
-              <label for="lastNameInput" class="form-label">Last name</label>
-              <input type="text" class="form-control" id="lastNameInput" required>
-              <div class="valid-tooltip">
-                Looks good!
+              <div class="col-md-4 position-relative">
+                <label for="lastNameInput" class="form-label">Last name</label>
+                <input type="text" class="form-control" id="lastNameInput" required>
+                <div class="valid-tooltip">
+                  Looks good!
+                </div>
               </div>
-            </div>
+            
+            
             <div class="mb-3 col-md-12">
               <label for="emailInput" class="form-label">Email address</label>
               <input
@@ -87,12 +90,11 @@
                 Your password must be at least 8 characters long and include uppercase, lowercase, and a symbol.
               </div>
             </div>
-            <div class="col-12">
+
               <button class="btn btn-primary" type="submit">Submit form</button>
-            </div>
           </form>
         </div>
-      </main>
+      </div>
       
       <script src="script.js"></script>
 </body>
